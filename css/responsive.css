@@ -11,12 +11,7 @@
 	.container{
 		max-width: 1550px;
 	}
-	header .container{
-		max-width: 1810px;
-	}
-	.home_area{
-		padding-left: calc((100% - 1550px) /  2 + 13rem);
-	}
+	
 }
 @media (min-width: 1440px) and (max-width: 1599.98px) { 
 	html{
@@ -24,12 +19,6 @@
 	}
 	.container{
 		max-width: 1340px;
-	}
-	header .container{
-		max-width: 1400px;
-	}
-	.home_area{
-		padding-left: calc((100% - 1340px) /  2 + 13rem);
 	}
 	#menu>li>a.nav-link {
 	    font-size: 2rem;
@@ -39,17 +28,11 @@
 	html{
 		font-size: 47%;
 	}
-	header .container{
-		max-width: 1300px;
-	}
 	#menu>li>a.nav-link {
 	    font-size: 1.8rem;
 	}
 	.container{
 		max-width: 1290px;
-	}
-	.home_area{
-		padding-left: calc((100% - 1290px) /  2 + 13rem);
 	}
 }
 
@@ -72,9 +55,6 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 	html{
 		font-size: 38%;
-	}
-	.home_area{
-		padding-left: calc((100% - 960px) /  2 + 15px);
 	}
 	#menu>li {
 	    margin: 0 1rem;
@@ -395,13 +375,6 @@
 	html{
 		font-size: 36%;
 	}
-	.home_area{
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: reverse;
-		    -ms-flex-direction: column-reverse;
-		        flex-direction: column-reverse;
-		padding-left: calc((100% - 540px) /  2 + 15px + 4rem);
-	}
 	.home_content {
 		margin-top: 8rem;
 	    width: 100%;
@@ -428,9 +401,6 @@
 	.container{
 		padding-left: 4rem;
 		padding-right: 4rem;
-	}
-	.home_area{
-		padding-left: 6.5rem;
 	}
 	.home_content{
 		padding-right: 6.5rem;
